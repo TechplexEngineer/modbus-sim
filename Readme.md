@@ -10,11 +10,10 @@ The Holding Registers and Input Registers are defined as follows:
 To read Holding Register `100` use `400100`
 
 | Address | Description |
-| :-----: | :---------: |
+| :-----: | ----------- |
 | 100     | 0xff00 ie. 65280 |
 | 101     | 0xffff ie. 65535 or -1 |
 | 102     | 0x0000 ie. 0 |
-
 | 201     | artificially generates error: IllegalFunction |
 | 202     | artificially generates error: IllegalDataAddress |
 | 203     | artificially generates error: IllegalDataValue |
@@ -25,7 +24,6 @@ To read Holding Register `100` use `400100`
 | 208     | artificially generates error: MemoryParityError |
 | 210     | artificially generates error: GatewayPathUnavailable |
 | 211     | artificially generates error: GatewayTargetDeviceFailedtoRespond |
-
 | 300     | uptime msb |
 | 301     | uptime lsb |
 | 302     | application start time msb |
@@ -40,11 +38,10 @@ To read Holding Register `100` use `400100`
 To read Input Register `100` use `300100`
 
 | Address | Description |
-| :-----: | :---------: |
+| :-----: | ----------- |
 | 100     | 0xff00 ie. 65280 |
 | 101     | 0xffff ie. 65535 or -1 |
 | 102     | 0x0000 ie. 0 |
-
 | 201     | artificially generates error: IllegalFunction |
 | 202     | artificially generates error: IllegalDataAddress |
 | 203     | artificially generates error: IllegalDataValue |
@@ -55,7 +52,6 @@ To read Input Register `100` use `300100`
 | 208     | artificially generates error: MemoryParityError |
 | 210     | artificially generates error: GatewayPathUnavailable |
 | 211     | artificially generates error: GatewayTargetDeviceFailedtoRespond |
-
 | 300     | uptime msb |
 | 301     | uptime lsb |
 | 302     | application start time msb |
